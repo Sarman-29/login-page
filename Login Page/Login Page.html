@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+
+  <link rel="stylesheet" type="text/css" href="Login Page.css">
+</head>
+
+<body>
+  <form action="login">
+    <div>
+      <h3>Welcome back</h3>
+      <p>Please enter your details to login</p>
+    </div>
+
+    <p class="mp">
+      <label for="mail">Email</label>
+      <input type="email" name="mail" id="mail" placeholder="hello@uiadrian.com">
+    </p>
+
+    <p class="mp">
+      <label for="password">Password</label>
+      <a href="#/">Forgot password?</a>
+      <input type="password" name="password" id="password">
+    </p>
+
+    <div>
+      <p class="check">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember me</label>
+      </p>
+    </div>
+
+    <p>
+      <button>Login</button>
+    </p>
+  </form>
+</body>
+
+</html>
+
+<!-- http://127.0.0.1:5500/login?mail=hello%40gmail.com&password=123654 -->
+<!-- http://127.0.0.1:5500/login?mail=hello%40gmail.com&password=123655&remember=on -->
